@@ -10,6 +10,9 @@ echo_2:
 echo_3:
 	go build echo_3.go
 
+echo_4:
+	go build echo_4.go
+
 dup_1:
 	go build dup_1.go
 
@@ -31,10 +34,16 @@ fetchall:
 server_1:
 	go build server_1.go
 
+server_2:
+	go build server_2.go
+
+server_3:
+	go build server_3.go
+
 clean:
 	rm -f helloworld
-	rm -f echo_1 echo_2 echo_3
+	rm -f echo_1 echo_2 echo_3 echo_4
 	rm -f dup_1 dup_2 dup_3
 	rm -f lissajous
 	rm -f fetch fetchall
-	rm -f server_1
+	rm -f server_1 server_2 server_3
