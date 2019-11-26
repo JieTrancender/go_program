@@ -1,0 +1,1 @@
+echo -e '{"method":"path/to/pkg.HelloService.Hello","params":["hello"],"id":1}' |nc localhost 1234
